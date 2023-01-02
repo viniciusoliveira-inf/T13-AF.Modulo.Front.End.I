@@ -1,0 +1,122 @@
+/* GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* MENU */
+
+.sec-menu{
+    float: left;
+    width: 25%;
+    height: 100vh;
+    background-color: #003147;
+}
+
+.img-menu {
+    display: block;
+    margin: 50% auto auto;
+    width:50%;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.nav-menu ul > li {
+    list-style-type: none;
+}
+
+.nav-menu ul > li > a {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    display: block;
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+
+/* CONTEUDO */
+
+.sec-cont{
+    float: right;
+    width: 75%;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.div-cont{
+    margin-left: 6%;
+    margin-right: 6%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+/* CONTEUDO SOBRE */
+
+.p-nome{
+    font-size: 45px;
+}
+
+.p-sobrenome{
+    font-size: 45px;
+    color: #0576aa;
+}
+
+.p-email, .p-growdev{
+    text-decoration: none;
+    color: rgb(153, 5, 5);
+}
+
+.p-des1{
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+.p-des2{
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.icon_redsoc{
+    width: 50px;
+    margin: 45px 45px 0 0;
+}
+
+.icon_redsoc:hover{
+    opacity: 0.5;
+}
+
+/* CONTEUDOS */
+
+.ol-c li, .ul-c li {
+    margin-top: 15px;
+}
+
+/* CONTEUDO CONHECIMENTOS */
+
+.div-conh{
+    margin-left: 7.4%;
+    margin-right: 6%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 20px;
+}
+
+/* CONTEUDO OBJETOS */
+
+.div-obje{
+    margin-left: 7.4%;
+    margin-right: 6%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 20px;
+}
